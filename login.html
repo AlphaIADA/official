@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Basic -->
 
 <head>
-	<meta charset="utf-8" />
+	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 	<!-- Site Metas -->
-	<title>FAIR-DOLL - Contact</title>
+	<title>FAIR-DOLL - Log In</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<meta name="author" content="" />
@@ -29,14 +28,9 @@
 	<link rel="stylesheet" href="css/responsive.css" />
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/custom.css" />
-
-	<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
 </head>
 
-<body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 	<!-- LOADER -->
 	<div id="preloader">
 		<div class="loader">
@@ -106,7 +100,7 @@
 							<div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
 								<ul class="navbar-nav">
 									<li>
-										<a class="nav-link " href="index.html">Home</a>
+										<a class="nav-link" href="index.html">Home</a>
 									</li>
 									<li>
 										<a class="nav-link" href="exchange.html">Exchange</a>
@@ -116,7 +110,7 @@
 									</li>
 									<li><a class="nav-link" href="new.html">News</a></li>
 									<li>
-										<a class="nav-link active" href="contact.html">Contact</a>
+										<a class="nav-link" href="contact.html">Contact</a>
 									</li>
 									<li><a class="nav-link" href="about.html">About</a></li>
 								</ul>
@@ -141,7 +135,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="banner_title">
-						<h3>Contact</h3>
+						<h3>Log In</h3>
 					</div>
 				</div>
 			</div>
@@ -149,32 +143,27 @@
 	</div>
 	<!-- End Banner -->
 
-	<!-- contact_form -->
-	<div class="section contact_form">
+	<section class="section">
 		<div class="container">
 			<div class="row">
-				<div class="full form-contact__container">
-					<form class="form form-contact">
+				<div class="col-md-12">
+					<form class="form">
+						<div class="full paddding_left_15">
+							<div class="heading_main text_align_left">
+								<h2>Login Details</h2>
+							</div>
+						</div>
 						<div class="form-row">
 							<div class="form-group col-md-6">
-								<label for="name">Full Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Full Name" required />
-							</div>
-							<div class="form-group col-md-6">
-								<label for="phone">Phone Number</label>
-								<input type="text" class="form-control" id="phone" placeholder="Phone Number"
+								<label for="email">E-mail Address</label>
+								<input type="email" class="form-control" id="email" placeholder="E-mail Address"
 									required />
 							</div>
-							<div class="form-group col-md-12">
-								<label for="name">E-mail</label>
-								<input type="email" class="form-control" id="name" placeholder="E-mail" required />
+							<div class="form-group col-md-6">
+								<label for="password"> Password</label>
+								<input type="password" class="form-control" id="password" placeholder="Password"
+									required />
 							</div>
-							<div class="form-group col-md-12">
-								<label for="message">Message</label>
-								<textarea rows="4" class="form-control" id="message" placeholder="Message" required>
-									</textarea>
-							</div>
-
 						</div>
 
 
@@ -185,14 +174,13 @@
 									margin-top: 1rem;
 									justify-self: center;
 								">
-							Send
+							Login
 						</button>
 					</form>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- end contact_form -->
+	</section>
 
 	<!-- Start Footer -->
 	<footer class="footer-box">
@@ -279,8 +267,6 @@
 		</div>
 	</div>
 
-	<a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
-
 	<!-- ALL JS FILES -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
@@ -289,7 +275,6 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/jquery.pogo-slider.min.js"></script>
 	<script src="js/slider-index.js"></script>
-	<!-- <script src="js/smoothscroll.js"></script> -->
 	<script src="js/form-validator.min.js"></script>
 	<script src="js/contact-form-script.js"></script>
 	<script src="js/isotope.min.js"></script>

@@ -2561,3 +2561,15 @@ ul.bottom_menu li {
 	justify-content: center;
 	align-items: center;
 }
+
+.social-links a {
+	color:black;
+	margin-left: 30px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.social-links a:hover {
+	color: pink;
+}
+
